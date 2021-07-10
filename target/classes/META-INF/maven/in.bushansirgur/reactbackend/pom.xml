@@ -12,7 +12,7 @@
 	<artifactId>reactbackend</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>reactbackend</name>
-	<description>Spring boot react notes app</description>
+	<description>Spring boot react stories app</description>
 	<properties>
 		<java.version>1.8</java.version>
 	</properties>
