@@ -1,4 +1,4 @@
-package in.bushansirgur.springboot.controller;
+package in.fuadhajiyev.springboot.controller;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package in.bushansirgur.springboot;
+package in.fuadhajiyev.springboot;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
