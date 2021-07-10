@@ -19,7 +19,7 @@ import in.fuadhajiyev.springboot.repository.StoriesRepository;
 public class StoriesController {
 	
 	@Autowired
-	NotesRepository nRepo;
+	StoriesRepository nRepo;
 	@GetMapping("/stories")
 	public ResponseEntity<List<Story>> readStories () {
 		return new ResponseEntity<List<Story>>(nRepo.findAll(), HttpStatus.OK);
