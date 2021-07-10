@@ -16,14 +16,14 @@ import in.bushansirgur.springboot.repository.NotesRepository;
 @RestController
 @RequestMapping("/api")
 @CrossOrigin("*")
-public class NotesController {
+public class StoriesController {
 	
 	@Autowired
 	NotesRepository nRepo;
 	
-	@GetMapping("/notes")
-	public ResponseEntity<List<Note>> readNotes () {
-		return new ResponseEntity<List<Note>>(nRepo.findAll(), HttpStatus.OK);
+	@GetMapping("/stories")
+	public ResponseEntity<List<Story>> readStories () {
+		return new ResponseEntity<List<Story>>(nRepo.findAll(), HttpStatus.OK);
 	}
 }
 
